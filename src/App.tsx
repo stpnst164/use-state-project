@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   //useState hook
-  const[count, setCount] = useState(0); 0 //- начальное значение
+  const[count, setCount] = useState(0); //0 - начальное значение
 
   return (
     <>
@@ -12,7 +12,7 @@ function App() {
         onClick={() => 
           setCount(5)
         }
-        >Count is: {count}</button>
+        >Count is: {count + 1}</button>
     </>
   )
 }
