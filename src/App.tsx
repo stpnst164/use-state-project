@@ -9,6 +9,11 @@ function App() {
     <>
       <h1>Hello</h1>
       <p>My name is Anastasiia Kharkovets</p>
+      <button
+        onClick={() => 
+          setCount(5)
+        }
+        >Count</button>
     </>
   )
 }
